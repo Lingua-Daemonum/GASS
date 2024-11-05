@@ -1,6 +1,8 @@
 # gass (GNU Assembler Script)
 High-level script language for GAS
 
+>This repository continues in [gass](https://github.com/miruji/gass) implemented in Rust;
+
 ## A few important notes
 
 1. Previously, I made a comment that GCC uses GAS and therefore this project does not make sense. However, in practice everything turned out to be completely different. There is not enough information yet due to too little functionality of GASS, but the usual output on Linux x64 when compressed with upx -q -q -q looks like this (5 runs of perf):
